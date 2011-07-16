@@ -1,16 +1,16 @@
 # RestKit RKCatalog Sample
 
-require 'sinatra/base'
+require 'sinatra'
 require 'json'
 
-class RKExampleServer < Sinatra::Base
+class RKExampleServer < Sinatra
   self.app_file = __FILE__
   
-  configure do
-    set :logging, true
-    set :dump_errors, true
-    set :show_exceptions, true
-  end
+  # configure do
+  #   set :logging, true
+  #   set :dump_errors, true
+  #   set :show_exceptions, true
+  # end
   
   post '/RKParamsExample' do
     "OK"
@@ -96,4 +96,4 @@ class RKExampleServer < Sinatra::Base
   end
 end
 
-RKExampleServer.run!
+#RKExampleServer.run!
