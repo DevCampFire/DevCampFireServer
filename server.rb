@@ -3,8 +3,8 @@
 require 'sinatra'
 require 'json'
 
-class RKExampleServer < Sinatra
-  self.app_file = __FILE__
+# class RKExampleServer < Sinatra
+#   self.app_file = __FILE__
   
   # configure do
   #   set :logging, true
@@ -94,6 +94,6 @@ class RKExampleServer < Sinatra
           }}]
     }
   end
-end
+# end
 
 #RKExampleServer.run!
