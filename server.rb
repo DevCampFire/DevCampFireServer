@@ -96,4 +96,4 @@ class RKExampleServer < Sinatra::Base
   end
 end
 
-#RKExampleServer.run!
+RKExampleServer.run!
