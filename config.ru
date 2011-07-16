@@ -1,2 +1,2 @@
-require './server'
+require './hello'
 run Sinatra::Application
