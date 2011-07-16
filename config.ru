@@ -1,2 +1,2 @@
 require './server'
-run RKExampleServer::Application
+run Sinatra::Application
