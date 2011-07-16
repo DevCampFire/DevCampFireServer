@@ -42,7 +42,7 @@ require 'json'
   end
   
   # Used by the Relationship mapping examples
-  get '/RKRelationshipMappingExample' do
+  get '/projects' do
     content_type 'application/json'
     %Q{
       [{"project": {
