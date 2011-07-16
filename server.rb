@@ -1,6 +1,5 @@
 # RestKit RKCatalog Sample
 
-require 'rubygems'
 require 'sinatra/base'
 require 'json'
 
