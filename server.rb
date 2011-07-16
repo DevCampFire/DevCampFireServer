@@ -5,7 +5,7 @@ require 'sinatra/base'
 require 'json'
 
 class RKExampleServer < Sinatra::Base
-  self.app_file = __FILE__
+  #self.app_file = __FILE__
   
   configure do
     set :logging, true
@@ -97,4 +97,4 @@ class RKExampleServer < Sinatra::Base
   end
 end
 
-RKExampleServer.run!
+#RKExampleServer.run!
